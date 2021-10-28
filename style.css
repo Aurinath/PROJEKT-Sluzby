@@ -1,0 +1,111 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body { background-color:#FAFAFA;
+    opacity:1;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 1657px;
+ }
+
+/* Obdelník 1 */
+ .obdelnik1{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+ }
+
+ .obdelnik1 img{
+     padding:60px 75,45px 39,5px 75,45px;
+}
+.obdelnik1 h1{
+    color:#000000;
+    font-size:28px;
+    text-align: center;
+    padding: 0 153px 10px 153px;
+ }
+
+ .rectangle {
+     box-sizing: border-box;
+     color:#407BFF;
+     width:60px;
+     height:2px;
+}
+ .obdelnik1 p {
+    color:#8B8B8B;
+    padding:30px 20px 30px 20px;
+}
+
+/* Obdelník 2 */
+.obdelnik2{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+ }
+ .map{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    
+}  
+
+.cactus{
+    box-shadow: 0px 4px 6px #407BFF1F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}  
+.plane{
+    box-shadow: 0px 4px 6px #407BFF1F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}  
+
+ .obdelnik2 p {
+    color:#8B8B8B;
+}
+
+/* Obdelník 3 */
+
+.obdelnik3{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+ }
+
+ .palm{
+    box-shadow: 0px 4px 6px #407BFF1F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}  
+.umbrella{
+    box-shadow: 0px 4px 6px #407BFF1F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}  
+
+.rv{
+    box-shadow: 0px 4px 6px #407BFF1F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}  
+
+
+ .obdelnik3 p {
+    color:#8B8B8B;
+}
+
+h2{
+    color:#000000;
+    font-size:16px;
+    text-align: center;
+ }
+ 
+ a{
+     font-size: 14px;
+     box-sizing: content-box;
+     border: #000000;
+}
