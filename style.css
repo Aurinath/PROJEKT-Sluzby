@@ -73,10 +73,6 @@ body { background-color:#FAFAFA;
   background: #FFFFFF 0% 0%;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  top: 863px;
-  left: 20px;
-  width: 460px;
-  height: 80px; 
   margin: 20px 15px 15px 20px;
 }
 
@@ -87,10 +83,6 @@ body { background-color:#FAFAFA;
 .map p{
   float: right;
   text-align: left;
-  top: 895px;
-  left: 114px;
-  width: 346px;
-  height: 28px;
   padding-left: 0px;
 }
 
@@ -100,10 +92,6 @@ body { background-color:#FAFAFA;
   background: #FFFFFF 0% 0%;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  top: 863px;
-  left: 20px;
-  width: 460px;
-  height: 80px;
   margin:0px 20px 15px 20px;
 }
 
@@ -115,10 +103,7 @@ body { background-color:#FAFAFA;
 .cactus p{
   float: right;
   text-align: left;
-  top: 958px;
-  left: 20px;
-  width: 460px;
-  height: 80px;
+
 }
 
 .plane{
@@ -127,10 +112,6 @@ body { background-color:#FAFAFA;
   background: #FFFFFF 0% 0%;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  top: 863px;
-  left: 20px;
-  width: 460px;
-  height: 80px;
   margin:0px 20px 60px 20px;
 }
 
@@ -141,10 +122,6 @@ body { background-color:#FAFAFA;
 .plane p{
   float: right;
   text-align: left;
-  top: 895px;
-  left: 114px;
-  width: 346px;
-  height: 28px;
   padding-left: 0px;
 }
 
@@ -167,10 +144,6 @@ body { background-color:#FAFAFA;
     background: #FFFFFF 0% 0%;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
-    top: 863px;
-    left: 20px;
-    width: 460px;
-    height: 80px;
     margin: 30px 15px 15px 20px;
 }  
 
@@ -185,10 +158,6 @@ body { background-color:#FAFAFA;
   background: #FFFFFF 0% 0%;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  top: 863px;
-  left: 20px;
-  width: 460px;
-  height: 80px;
   margin:0px 20px 15px 20px;
 }  
 
@@ -203,10 +172,6 @@ body { background-color:#FAFAFA;
   background: #FFFFFF 0% 0%;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  top: 863px;
-  left: 20px;
-  width: 460px;
-  height: 80px;
   margin:0px 20px 60px 20px;
 }  
 
@@ -266,10 +231,6 @@ h2{
 .map{
   display:flex;
   flex-direction: column;
-  top: 836px;
-  left: 20px;
-  width: 230px;
-  height: 172px;
   font-size: 13px;
   text-align: center;
   margin: 10px;
