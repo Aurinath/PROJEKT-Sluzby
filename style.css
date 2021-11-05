@@ -1,247 +1,157 @@
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html{box-sizing: border-box;}
+*,:after, :before{box-sizing: inherit;}
 
-body { background-color:#FAFAFA;
- }
-
-/* Obdelník 1 */
- .obdelnik1{
-    text-align: center;
-    display:flex;
-    flex-direction:column;
-    position:relative;
-}
-
- .obdelnik1 img{
-    padding:60px 75px 39px 75px;
-}
-.obdelnik1 h1{
-    color:#000000;
-    font-size:28px;
-    text-align: center;
-    margin: 39,5px 153px 10px 153px;
-    font-weight: 600;
-    border-bottom:  2px solid #407BFF;
-   }
-
- .obdelnik1 p {
-    color:#8B8B8B;
-    margin:30px 20px 0px 20px;
-}
-
-
-.dobrodruzstvi{
-  margin: 30px 152px 10px 153px;
-  border-radius:20px;
-  display: block;
-  background-color: #407BFF;
-  padding: 10px;
-  text-align:center;
-  font-size: 14px;
-  color:white;
-  font-weight: 600;
-}
-
-.pohoda{
-  margin: 10px 140px 60px 140px;
-  border-radius:20px;
-  display: block;
-  background-color: #8B8B8B;
-  padding: 10px;
-  text-align:center;
-  font-size: 14px;
-  color:white;
-  font-weight: 600;
-}
-
-/* Obdelník 2 */
-.obdelnik2{
+body{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 13px;
+  background-color: #FAFAFA;
   text-align: center;
-  display:flex;
-  flex-direction:column;
-  flex-grow:1;
-  position: relative;
-}
-.obdelnik2 p {
-  color:#8B8B8B;
-  padding:0px 20px;
 }
 
- .map{
-  display:flex;
-  flex-direction: row;
-  background: #FFFFFF 0% 0%;
-  box-shadow: 0px 4px 6px #407BFF1F;
-  border-radius: 10px;
-  margin: 20px 15px 15px 20px;
+.sluzby1 p{
+  font-size: 16px;
+}
+.sluzby2 p{
+  font-size: 16px;
 }
 
-.map img{
+h1{
+  font-size: 28px;
+  border-bottom: 2px solid #407BFF;
+}
+.obdelnik1, .obdelnik2, .obdelnik3{
+  margin: 20px;
   padding:20px;
 }
 
-.map p{
-  float: right;
-  text-align: left;
-  padding-left: 0px;
+.obdelnik1{
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
-
-.cactus{
-  display:flex;
-  flex-direction: row;
-  background: #FFFFFF 0% 0%;
-  box-shadow: 0px 4px 6px #407BFF1F;
-  border-radius: 10px;
-  margin:0px 20px 15px 20px;
-}
-
-
-.cactus img{
-  padding:20px;
-}
-
-.cactus p{
-  float: right;
-  text-align: left;
-
-}
-
-.plane{
-  display:flex;
-  flex-direction: row;
-  background: #FFFFFF 0% 0%;
-  box-shadow: 0px 4px 6px #407BFF1F;
-  border-radius: 10px;
-  margin:0px 20px 60px 20px;
-}
-
-.plane img{
-  padding:20px;
-}
-
-.plane p{
-  float: right;
-  text-align: left;
-  padding-left: 0px;
-}
-
-
-
-
-/* Obdelník 3 */
 
 .obdelnik3{
-    text-align: center;
-    display:flex;
-    flex-direction:column;
-    flex-grow:1;
-    position: relative;
- }
-
- .palm{
-    display:flex;
-    flex-direction: row;
-    background: #FFFFFF 0% 0%;
-    box-shadow: 0px 4px 6px #407BFF1F;
-    border-radius: 10px;
-    margin: 30px 15px 15px 20px;
-}  
-
-.palm img{
-  padding:20px;
+  margin-bottom: 60px;
+  margin-top:0;
+  padding-top: 0;
 }
 
+.obdelnik2{
+  margin-top:0;
+  padding-top: 0;
+  margin-bottom:60px;
+}
 
-.umbrella{
+.img{
+  max-width: 100%;
+}
+
+.map, .cactus, .plane, .palm, .umbrella, .rv{
   display:flex;
-  flex-direction: row;
-  background: #FFFFFF 0% 0%;
+  align-items: center;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  margin:0px 20px 15px 20px;
-}  
-
-
-.umbrella img{
-  padding:20px;
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  
 }
 
-.rv{
-  display:flex;
-  flex-direction: row;
-  background: #FFFFFF 0% 0%;
-  box-shadow: 0px 4px 6px #407BFF1F;
-  border-radius: 10px;
-  margin:0px 20px 60px 20px;
-}  
-
-.rv img{
-  padding:20px;
+.map img, .cactus img, .plane img, .palm img, .umbrella img, .rv img{
+  padding: 20px;
 }
 
- .obdelnik3 p {
-    color:#8B8B8B;
-    padding:0px 20px;
+.dobrodruzstvi,.pohoda{
+  border-radius:20px;
+  background-color: #407BFF;
+  padding: 10px;
+  margin: 5% 15% 5% 15%;
+  text-align:center;
+  font-size: 14px;
+  color:white;
+  font-weight: 600;
 }
 
-/* Obecne */
-h2{
-    color:#000000;
-    font-weight: 600;
-    font-size:16px;
-    text-align: center;
- }
- 
- a{
-     font-size: 14px;
-     box-sizing: content-box;
-     border: #000000;
+.pohoda{;
+  background-color: #8B8B8B;
 }
 
-@media screen and (min-width: 639px){
-  .tlacitka{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: no-wrap;
+
+@media (min-width:540px){
+  .ikony{
+    display: flex;
+    justify-content: space-between;
   }
-  .obdelnik1 img{
-    margin:60px 184,45px 30px 183,55px;   
-   }
-   .obdelnik1 h1{
-   margin: 0px 287px 10px 287px;
-   }
-   .obdelnik1 p {
-   color:#8B8B8B;
-   margin:30px 109px 0px 109px;
-   }
-   .dobrodruzstvi{
-    margin: 30px 20px 80px 167px;
-    display: inline-block;
-    padding: 11px 31px 11px 30px;
+  .map, .cactus, .plane, .palm, .umbrella, .rv{
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+  }
+
+  .tlacitka{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+  }
+    
+  .dobrodruzstvi,.pohoda{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 11px 30px 11px 30px;
+    margin:0;
+  }
+}
+
+@media (min-width:810px){
+  .obdelnik1{
+    display:flex;
+  }
+  .clovek{
+    order:4;
+    margin-left: 40px;
+  }
+  .happy{
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .dobrodruzstvi{
+    margin:30px 20px 60px 0px;
   }
   .pohoda{
-    margin: 30px 166px 80px 0px;
-    padding: 11px 30px 10px 30px;
+    margin:30px 20px 60px 0px
   }
 
-.ikony1{
-  display: flex;
+  .tlacitka{
   flex-direction: row;
-}
-.map{
-  display:flex;
-  flex-direction: column;
-  font-size: 13px;
-  text-align: center;
-  margin: 10px;
-}
-.map img{
-  padding:40px 92px 20px 92px;
+  justify-content: unset;
+  padding:0;
+  margin:0;
+  }
+
+  .obdelnik2{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+
+  .obdelnik3{
+    display:flex;
+    padding:0px;
+    margin:40px;
+  }
+
+  .sluzby1{
+    margin:40px 40px 40px 40px;
+    text-align: left;
+    }
+
+.sluzby2{
+margin:40px 40px 40px 0px;
+text-align: left;
 }
 
-.map p{
-  float: none;
-  text-align: center;
-  padding:10px;
 }
-}
+
+
